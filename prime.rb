@@ -11,7 +11,6 @@ require 'pry'
 def prime?(integer)
 if integer / 2 
   false
-elsif integer.even?
- true
 end 
+integer.even?
 end
