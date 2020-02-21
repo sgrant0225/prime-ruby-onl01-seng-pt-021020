@@ -11,5 +11,6 @@ require 'pry'
 def prime?(integer)
 if integer / 2 
   false
+  bindind.pry
 end 
 end
