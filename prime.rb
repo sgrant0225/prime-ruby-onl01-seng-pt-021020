@@ -11,5 +11,6 @@ require 'pry'
 def prime?(integer)
 if integer <= 1
   false
+else 
 end 
 end
