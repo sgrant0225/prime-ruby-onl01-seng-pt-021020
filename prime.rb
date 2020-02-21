@@ -12,5 +12,4 @@ def prime?(integer)
 if integer / 2 
   false
 end 
-integer.even?
 end
