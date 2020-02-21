@@ -9,7 +9,7 @@ require 'pry'
 # end
 
 def prime?(integer)
-if integer / 2 <= 0
+if integer / 2 
   false
 end 
 end
