@@ -11,6 +11,7 @@ require 'pry'
 def prime?(integer)
 if integer / 2 
   false
-  binding.pry
+elsif integer.even?
+ true
 end 
 end
